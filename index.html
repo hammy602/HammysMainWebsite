@@ -1,1 +1,21 @@
-<!DOCTYPE html><html><head><meta charset='utf-8' /><title>Error</title></head><body><h1 id='errorTitle'></h1><hr /><p>Failed to load <b id="fetchedURL"></b></p><p id="errorMessage"></p><table><tbody><tr><td>Code:</td><td id="errorCode"></td></tr></tbody></table><textarea id="errorTrace" cols="40" rows="10" readonly></textarea><p>Try:</p><ul><li>Checking your internet connection</li><li>Verifying you entered the correct address</li><li>Clearing the site data</li><li>Contacting <b id="uvHostname"></b>'s administrator</li><li>Verify the <a id='bareServer' title='Bare server'>Bare server</a> isn't censored</li></ul><p>If you're the administrator of <b id="uvHostname"></b>, try:</p><ul><li>Restarting your Bare server</li><li>Updating Ultraviolet</li><li>Troubleshooting the error on the <a href="https://github.com/titaniumnetwork-dev/Ultraviolet">GitHub repository</a></li></ul><button id="reload">Reload</button><hr /><p><i>Ultraviolet v<span id="uvVersion"></span></i></p><script src="data:application/javascript,errorTitle.textContent%20%3D%20%22Error%20processing%20your%20request%22%3BerrorCode.textContent%20%3D%20%22TypeError%22%3BerrorMessage.textContent%20%3D%20%20%22Internal%20Server%20Error%22%3BerrorTrace.value%20%3D%20%22TypeError%3A%20Load%20failed%22%3BfetchedURL.textContent%20%3D%20%22blob%3Ahttps%3A%2F%2F152.53.53.8%2Fb5657205-954f-401d-85bd-309afa1fa6bf%22%3BbareServer.href%20%3D%20%22https%3A%2F%2F152.53.53.8%2Fbare%2F%22%3Bfor%20(const%20node%20of%20document.querySelectorAll(%22%23uvHostname%22))%20node.textContent%20%3D%20%22152.53.53.8%22%3Breload.addEventListener(%22click%22%2C%20()%20%3D%3E%20location.reload())%3BuvVersion.textContent%20%3D%20%221.0.10%22%3B"></script></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Iframe Example</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe src="http://hammysotherwebsite.govt.hu/"></iframe>
+</body>
+</html>
